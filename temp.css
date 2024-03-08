@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://ak4.picdn.net/shutterstock/videos/5903684/thumb/1.jpg');
+    font-size: 15px;
+
+}
+
+.temperature-converter {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+.title {
+    margin-top: 20px;
+    text-align: center;
+}
+.result {
+    text-align: center;
+}
+.celsius-value {
+    border-bottom: 2px solid;
+}
+.field-type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px 0;
+}
+.degree {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+label {
+    margin-bottom:1px;
+}
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    background: aliceblue;
+}
+
+input,select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    background: #f6f6f6;;
+}
+input:focus{
+    border: 1px solid red;
+}
+.convt-btn {
+    margin-top: 10px;
+     width: 100%;
+     background-color:transparent;
+     font-size: 20px;
+}
